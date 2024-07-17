@@ -1,0 +1,21 @@
+.img-logo {
+    height: 6vh;
+    padding-left: 15px;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    margin-right: 20px;
+}
+
+
+.navbar {
+    height: 7vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-logo {
+        border: none;
+    }
+    .slogan {
+        display: none;
+    }
+  }

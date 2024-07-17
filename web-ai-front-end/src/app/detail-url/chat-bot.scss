@@ -1,0 +1,136 @@
+
+
+.chat-container {
+    width: 100%;
+    height: 93vh;
+    // border: 1px solid red;
+    // overflow:  auto;
+    // background-color: gray;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: ;
+
+    .chats {
+        height: 92%;
+
+        .empty-chat {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: white;
+                padding: 30px;
+                padding-left: 60px;
+                padding-right: 60px;
+                text-align: center;
+            }
+        }
+    }
+
+    .chat-input-container {
+        height: 8%;
+        display: flex;
+        align-content: stretch;
+        justify-items: stretch;
+
+        input {
+            padding: 10px;
+            height: 100%;
+            width: 90%;
+        }
+
+        button {
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: rgb(90,195,249);
+            background-color: gray;
+            color: rgb(90,195,249);
+            
+            span {
+                font-size: 39px;
+
+            }
+        }
+
+        button:disabled {
+            color: white;
+            // background-color: pink;
+        } 
+    }
+
+}
+
+
+.chat-field {
+    >div {
+        display: flex;
+        padding: 30px;
+        padding-top: 9px;
+        padding-bottom: 5px;
+    }
+
+    .chat-sender-icon {
+        cursor: none;
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        line-height: 57px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        
+        // span {
+        //     font-size: 55px;
+        // }
+    }
+
+    p {
+        padding: 10px;
+        font-size: 95%;
+        margin: 0px 10px;
+        // border: 2px solid blue;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+
+    }
+}
+
+.bot-chat {
+    display: flex;
+    justify-content: start;
+
+    p {
+        max-width: 70%;
+        background-color: rgb(38, 37, 44);
+        color: white;
+        box-shadow: -1px -1px 2px rgb(116, 116, 116), 1px 1px 2px rgb(116, 116, 116);
+    }
+}
+
+.user-chat {
+    display: flex;
+    justify-content: end;
+
+    p {
+        max-width: 70%;
+        background-color: rgb(90, 195, 249);
+        color: white;
+        box-shadow: -1px -1px 2px white, 1px 1px 2px white;
+    }
+}
+
+.some-chat {
+    overflow: auto;
+    height: 100%;
+}
+

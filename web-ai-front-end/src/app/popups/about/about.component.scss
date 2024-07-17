@@ -1,0 +1,35 @@
+// @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.pop-up {
+    width: 400px;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: white;
+
+    .heading-container {
+        font-size: 150%;
+        font-weight: bold;
+        text-align: center;
+
+    }
+}
+
+input {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+input:focus {
+    background-color: rgba(54, 54, 54, 0.199);
+    color: white;
+}
+
+.buttons {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    margin-left: 7px;
+}

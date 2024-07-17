@@ -1,0 +1,37 @@
+<div class="pop-up">
+
+    <div class="heading-container">
+        User information
+    </div>
+    <br>
+
+    <div class="form-container">
+
+        <div class="form-group">
+            <div class="label">Name</div>
+            <input class="form-control" type="text" [(ngModel)]="name" required="true">
+        </div>
+        <br>
+        <div class="form-group">
+            <div class="label">Email ID</div>
+            <input class="form-control" type="email" [(ngModel)]="email" required="true">
+        </div>
+        
+
+    </div>
+    <br>
+    <div class="action-buttons-container">
+
+        <div class="buttons">
+            <button class="btn btn-secondary" mat-dialog-close>Cancel</button>
+            <button class="btn btn-primary" (click)="submit()">Next</button>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+
